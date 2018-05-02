@@ -14,7 +14,7 @@ public class PriorityQueueTester2 {
 		
 		PriorityQueue<Integer, Integer> pq; 
 		
-		pq = new UnsortedListPriorityQueue<Integer, Integer>(new IntegerComparator1());    // 1
+		pq = new UnsortedListPriorityQueue<Integer, Integer>(new IntegerComparator2());    // 1
 		//pq = new SortedListPriorityQueue<Integer, Integer>(new IntegerComparator1());    // 2
 		//pq = new HeapListPriorityQueue<Integer, Integer>(new IntegerComparator1());      // 3
 		//pq = new HeapPriorityQueue<Integer, Integer>(new IntegerComparator1());          // 4
